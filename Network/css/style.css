@@ -1,0 +1,516 @@
+body{
+background-color: #9c4057;
+margin: 0px;
+color: white;
+}
+/*.container{
+width: 100%;
+margin:0 auto;
+background: red;
+}*/
+/*Navbar  hisse*/
+.nav-bar{
+display: inline-block;
+}
+.search{
+float: left;
+height: 48px;
+margin-right: 15px;
+width: 33pc;
+font-size: larger;
+}
+.searc i{
+content: "\f002";
+margin-left: -50px;
+margin-top: 20px;
+color: #9c4057;
+}
+::placeholder{
+color: #9c4057;
+}
+.nav-bar h1{
+margin-left: 7pc;
+font-size: 45px;
+color: whitesmoke;
+margin-top: 36px;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.nav-bar h1 span{
+color: white;
+font-family: 'Roboto Condensed', sans-serif;
+}
+.upload{
+width: 100%;
+height: 70px;
+margin-left: 27pc;
+margin-top: -6%;
+}
+.searc{
+width: 100%;
+height: 70px;
+}
+.upload h3{
+margin-left: 78px;
+width: 40px;
+margin-top: -8px;
+/* background: #11c8dc; */
+color: white;
+font-size: 20px;
+height: 60px;
+}
+.upload span{
+font-size: 17px;
+}
+.up{
+width: 20px;
+padding-top: 2px;
+height: 0px;
+color: #9c4057;
+}
+.btn{
+float: right;
+height: 54px;
+margin-right: 24px;
+width: 121px;
+background: white;
+}
+.btn h4{
+display: inline;
+font-size: 17px;
+color: #9c4057;
+}
+.btnHuman{
+width: 54px;
+height: 54px;
+margin-right: 233px;
+float: right;
+background: white;
+}
+.user{
+width: 20px;
+margin-top: -66px;
+height: 20px;
+/* background: red; */
+margin-left: 8px;
+}
+.user i{
+color: #9c4057;
+}
+/*Ul li hissesi*/
+.nav ul li{
+display:inline-block;
+*display:inline; /*IE7*/
+*zoom:1; /*IE7*/
+color:white;
+margin-right:10px;
+}
+.nav ul li a{
+font-size: 26px;
+margin-left: 15px;
+margin-top: 111px;
+color: white;
+text-decoration: none;
+}
+.nav ul li a:hover{
+left: 100%;
+bottom: -0.5rem;
+width: 0%;
+height: calc(100% + 1rem);
+border-top: 0.4rem solid blue;
+border-left: 0.6rem solid red;
+border-bottom: 0.4rem solid green;
+transform: translateX(-50%);
+transition: all 0.3s;
+}
+.list{
+margin-left: 110px;
+border-bottom: solid white;
+border-top: solid white ;
+width: 84%;
+margin-top: 45px;
+}
+.xet{
+font-size: 24px;
+margin-left: 15px;
+}
+.incube{
+width: 246px;
+padding-top: 145px;
+font-size: 14px;
+}
+.incube h4{
+display: inline;
+color: #9c4057;
+margin-left: 15px;
+}
+.incube span{
+float: right;
+}
+/*Videos hissesi*/
+.Videos{
+width: 910px;
+height: 582px;
+}
+.cube{
+display: inline-block;
+margin-left: 107px;
+}
+.cube h3 span{
+font-size: 15px;
+float: right;
+margin-right: 17px;
+margin-top: 15px;
+}
+.cubeone{
+width: 530px;
+height: 350px;
+background-color: whitesmoke;
+}
+.cubeghost{
+width: 250px;
+height: 171px;
+background: no-repeat;
+border: solid;
+border: solid white;
+float: left;
+margin-left: 102%;
+color: white;
+margin: 5px;
+margin-top: 1PX;
+}
+.cubeghost:hover{
+border-top:solid blue;
+border-right: solid red;
+border-left:solid red;
+border-bottom:solid green;
+transform: translateX(+1%);
+transition: all 0.3s;
+}
+.cubeghost1{
+width: 250px;
+height: 171px;
+background: no-repeat;
+border: solid;
+border: solid white;
+float: left;
+margin-left: 102%;
+color: white;
+margin: 5px;
+margin-top: 1PX;
+}
+.cubeghost1:hover{
+border-top:solid blue;
+border-right: solid red;
+border-left:solid red;
+border-bottom:solid green;
+transform: translateX(+1%);
+transition: all 0.3s;
+}
+.fa-dot-circle:before {
+content: "\f192";
+font-size: 40px;
+margin-right: 140px;
+}
+.fa-plus-circle:before {
+content: "\f055";
+font-size: 37px;
+}
+.fa-plus-circle:before {
+content: "\f055";
+margin-right: 142px;
+}
+.cubeghost h2{
+display: inline;
+float: right;
+font-size: 22px;
+margin-top: -47px;
+margin-right: 15px;
+}
+.cubeghost span{
+font-size: 18px;
+margin-left: 55px;
+}
+.cubeghost1 h2{
+display: inline;
+float: right;
+font-size: 22px;
+margin-top: -47px;
+margin-right: 45px;
+}
+.cubeghost1 span {
+font-size: 18px;
+margin-left: 31px;
+}
+.skills{
+width: 400px;
+padding-top: 280px;
+font-size: 29px;
+}
+.skills h4{
+display: inline;
+color: #9c4057;
+margin-left: 15px;
+}
+.skills span{
+color: #9c4057;
+margin-left: 15px;
+font-size: 20px;
+}
+.dublcube{
+width: 285px;
+margin-right: -280px;
+height: 353px;
+display: inline-block;
+float: right;
+}
+.Activity{
+float: right;
+margin-right: -457px;
+margin-top: -70px;
+height: 33pc;
+width: 29pc;
+color: whitesmoke;
+}
+.Activity h1 span{
+font-size: 15px;
+margin-left: 124px;
+color: whitesmoke;
+}
+.xetspan{
+border-bottom: solid;
+margin-top: 16px;
+margin-right: 16px;
+width: 28pc;
+}
+.xetspandown{
+border-bottom: solid;
+margin-top: 20px;
+margin-right: 16px;
+}
+/*Sag Activity   hisse*/
+.microcube{
+width: 90px;
+height: 61px;
+margin-top: 5px;
+background-color: whitesmoke;
+}
+.backgroundhover{
+width: 200px;
+height: 70px;
+}
+.backgroundhover:hover{
+width: 400px;
+height: 70px;
+border-bottom: solid green;
+border-top:solid blue;
+border-left: solid red;
+transform: translateX(+10%);
+transition: all 0.3s;
+}
+.backgroundhover i{
+margin-left: 114px;
+color: white;
+}
+.time{
+width: 120px;
+height: 18px;
+margin-left: 140px;
+margin-top: -18px;
+}
+.microcube h4{
+width: 290px;
+padding-left: 115px;
+margin: 0px;
+}
+.microcube h4 span{
+color: #f3f5f8;
+font-size: 13px;
+margin: 0px;
+}
+.cube h1{
+margin-top: 20px;
+margin-right: 0pc;
+}
+.textclas{
+margin-top: -12px;
+}
+.textclas h1 {
+margin-top: 29px
+}
+.cube h3,h1{
+margin-top: 55px;
+font-size: 34px;
+margin-bottom: 5px;
+}
+.cubeone1{
+width: 250px;
+height: 170px;
+background-color: whitesmoke;
+float: left;
+margin-left: 102%;
+margin: 5px;
+margin-top: 1PX;
+}
+.cubeone1:hover{
+border-top:solid blue;
+border-right: solid red;
+border-left:solid red;
+border-bottom:solid green;
+transform: translateX(+1%);
+transition: all 0.3s;
+}
+/*Document hissesi*/
+.dublecubedown{
+width: 550px;
+margin-left: -5px;
+height: 176px;
+}
+.cubeone2{
+width: 260px;
+height: 167px;
+background-color: whitesmoke;
+float: left;
+margin-left: 102%;
+margin: 5px;
+}
+.cubeone2:hover{
+border-top:solid blue;
+border-right: solid red;
+border-left:solid red;
+border-bottom:solid green;
+transform: translateX(+1%);
+transition: all 0.3s;
+}
+.clear{
+clear: both;
+}
+.People{
+width: 910px;
+height: 582px;
+}
+.Decuments{
+width: 910px;
+height: 582px;
+}
+.cubeone3{
+width: 260px;
+height: 167px;
+background-color: whitesmoke;
+float: right;
+}
+.macrocube{
+width: 185px;
+height: 120px;
+background-color: whitesmoke;
+margin: 5px 20px;
+float: left;
+margin-left: 0px;
+margin-top: 20px;
+}
+.macrocube:hover{
+border-left: solid red;
+border-right:solid green;
+}
+.macrocube h4{
+color:#9c4057;
+margin-top: 90px;
+margin-left: 10px;
+font-size: 20px;
+}
+.xetchannels{
+border-bottom: solid;
+margin-right: 16px;
+}
+.Channel{
+height: 51pc;
+border-bottom: solid;
+width: 474px;
+/* background: rebeccapurple; */
+float: right;
+margin-right: -469px;
+margin-top: -70px;
+color: whitesmoke;
+}
+.Channel h1 span{
+font-size: 15px;
+margin-left: 170px;
+color: whitesmoke;
+}
+/*Footer  hisse*/
+.Footer{
+width: 88%;
+height: 200px;
+margin-left: 101px;
+margin-top: 152px;
+border-top: solid whitesmoke;
+}
+.btns{
+width: 200px;
+height: 60px;
+float: left;
+margin-top: 30px;
+}
+.btns button {
+width: 40px;
+height: 40px;
+margin-right: 13px;
+background: none;
+}
+.btns img{
+width: 20px;
+height: 20px;
+}
+.Footer ul{
+display: inline-block;
+padding-left: 0px;
+margin-left: -211px;
+}
+.Footer ul li{
+display:inline-block;
+*display:inline; /*IE7*/
+*zoom:1; /*IE7*/
+color:white;
+margin-right:10px;
+}
+.Footer ul li a{
+font-size: 15px;
+margin-left: 15px;
+margin-top: 111px;
+color: white;
+text-decoration: none;
+}
+.Footer ul li a:hover{
+left: 100%;
+bottom: -0.5rem;
+width: 0%;
+height: calc(100% + 1rem);
+border-top: 0.4rem solid blue;
+border-left: 0.6rem solid red;
+border-bottom: 0.4rem solid green;
+transform: translateX(-50%);
+transition: all 0.3s;
+}
+.Footerlist{
+margin-top: 70px;
+margin-right: 64px;
+}
+.cep{
+font-size: 17px;
+margin-left: 15px;
+}
+.corpirasiya img{
+width: 12px;
+}
+.corpirasiya h6{
+display: inline-block;
+}
+.fin{
+width: 100px;
+margin-top: -38px;
+}
+.fin h6{
+font-size: 12px;
+}
+.fin span{
+margin: 11px;
+}
